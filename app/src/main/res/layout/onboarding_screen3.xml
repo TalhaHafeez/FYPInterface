@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/prepareList"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:text="Get songs"
+        android:textSize="39sp" />
+
+    <ImageView
+        android:id="@+id/prepareImage"
+        android:layout_width="266dp"
+        android:layout_height="235dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/get_songs" />
+
+    <TextView
+        android:layout_width="308dp"
+        android:layout_marginTop="7dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prepareImage"
+        android:layout_centerHorizontal="true"
+        android:text="Choose your songs to Play. Click Add button to add songs to the respective playlist from the device songs. e.g. Add songs which you like in happy mood in Happy playlist." />
+
+</RelativeLayout>

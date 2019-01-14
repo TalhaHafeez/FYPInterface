@@ -1,0 +1,46 @@
+<resources>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+
+    <style name="CustomStyleButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#e7d8d5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">20</item>
+        <item name="android:shadowDy">20</item>
+        <item name="android:shadowRadius">0.6</item>
+      <item  name="android:background">@drawable/customemotionbuttons</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingBottom">5dip</item>
+        <item name="android:paddingTop">132dip</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dip</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:textAlignment">viewEnd</item>
+
+    </style>
+    
+    <style name="music_control" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#e39a86</item>
+        <item name="colorControlHighlight">#fbdcd3</item>
+    </style>
+    <style name="LightTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+    <!--
+        <item name="android:shape">ring</item>
+        <item name="android:strokeColor">#e39a86</item>
+        <item name="android:colorBackground">#e3a392</item>
+        </style>-->
+
+
+</resources>

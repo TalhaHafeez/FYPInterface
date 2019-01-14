@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "777050958936",
+    "firebase_url": "https://client-f6dd3.firebaseio.com",
+    "project_id": "client-f6dd3",
+    "storage_bucket": "client-f6dd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777050958936:android:abdd84394983734d",
+        "android_client_info": {
+          "package_name": "com.example.rabiaqayyum.fypinterface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777050958936-hnv33h03lntnitt69a4606drl6cqi78d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzWnolaDRDrwSp1hE93mjR1hQFdzzzhkQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777050958936:android:3ca12a4d89ee21f1",
+        "android_client_info": {
+          "package_name": "com.jonathanblood.restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777050958936-hnv33h03lntnitt69a4606drl6cqi78d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzWnolaDRDrwSp1hE93mjR1hQFdzzzhkQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777050958936:android:a09d84f0fc4581f8",
+        "android_client_info": {
+          "package_name": "com.sohail.list"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777050958936-hnv33h03lntnitt69a4606drl6cqi78d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzWnolaDRDrwSp1hE93mjR1hQFdzzzhkQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777050958936:android:88b3f734416a97ba",
+        "android_client_info": {
+          "package_name": "maps.tracking.com.brewmaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777050958936-hnv33h03lntnitt69a4606drl6cqi78d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzWnolaDRDrwSp1hE93mjR1hQFdzzzhkQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+
+            star.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    int position=getAdapterPosition();
+                    if(view.isSelected()==false)
+                    {
+                        view.setSelected(true);
+                        songsList.sdh.updateSongs(songs.get(position).getID(),1);
+                        SharedPreferences sharedPreferences = itemView.getContext().getSharedPreferences("tgpref1", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = sharedPreferences.edit();
+
+                        editor.putBoolean("tgpref", false);
+                        editor.commit();
+
+                    }
+                    else
+                    {
+                        view.setSelected(false);
+                        songsList.sdh.updateSongs(songs.get(position).getID(),0);
+
+                        SharedPreferences sharedPreferences = itemView.getContext().getSharedPreferences("tgpref1", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor editor = sharedPreferences.edit();
+                        editor.putBoolean("tgpref", true);
+
+                        editor.commit();
+
+                    }
+                }
+            });

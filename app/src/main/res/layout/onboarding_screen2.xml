@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:id="@+id/selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Select your Option"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/helpImage"
+        android:layout_width="266dp"
+        android:layout_height="235dp"
+        android:layout_below="@+id/selection"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/playlist_help" />
+
+    <TextView
+        android:id="@+id/selectionText"
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+
+        android:text="Choose from your custom made playlist or the online playlist. Give Feedback if your emotion detected is not correct your image and correct emotion will be stored on server" />
+
+</RelativeLayout>
